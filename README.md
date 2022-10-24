@@ -1,11 +1,8 @@
-   # 1. 팀 소개
+   # Usopp
    > 프로젝트 기간
    > 2022.08.12 ~ 2022.8.26 <br>
-
-
-   Usopp
-
-   |포지션|이름|담당|
+  
+  |포지션|이름|담당|
    |---|---|---|
    |FRONT|김준호|로그인, footer|
    |FRONT|소재현|nav bar, 제품상세페이지 장바구니 추가|
@@ -13,16 +10,45 @@
    |BACK|류예린|장바구니 CRUD 구현.|
    |BACK|이상우|로그인 & 회원가입 구현.|
    |BACK|이상엽|사이트 페이지 구현.|
+<br>
 
-# <br />
+# 프로젝트 시연 영상 및 이미지
+
+
+[![Video Label](https://user-images.githubusercontent.com/105201721/197597252-1f97a028-b7b9-42c0-8251-344a09af74a4.png)](https://youtu.be/CnpaR1a_kIE)
+👉 화면을 클릭하면 영상으로 이동합니다.
+
+# Nav-bar 구현
+![Video Label](https://velog.velcdn.com/images/so960225/post/b9558b8f-1b81-4611-b4fe-92a0219a2621/image.gif)
+
+#  제품상세페이지
+![Video Label](https://user-images.githubusercontent.com/105201721/197598394-49d69b0b-5689-4090-83d0-6dc169496846.gif)
+
+
+
+# 기술 스택
+<a href="https://developer.mozilla.org/ko/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"></a> <a href="https://developer.mozilla.org/ko/docs/Web/CSS/Reference" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"></a> <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black"></a> 
+ <br>
+ <a href="https://ko.reactjs.org" target="_blank"><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=black"></a><a href="https://sass-guidelin.es/ko" target="_blank"><img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=Sass&logoColor=white"></a>
+ <br>
+ 
+ 
+  
+
+ 
+
+<br>
 
 
 
 
 
 ## :: 구현 목표
+- 로그인 및 회원가입 구현.
+- 장바구니 CRUD 구현.
+- 제품 메인, 카테고리, 상세 페이지 구현.
 
-- 이솝 홈페이지 usefarams, map함수, props를 사용하여 UI구현 
+
 - 로그인 입력시 유효성 검사 함수에 따른 화면 구현 
 - 이메일 정보를 호출하여 DB에 없다면 메세지 출력과 회원가입으로 이동.
 - 이메일 정보 일치시 비밀번호 입력란 호버 출력.
@@ -34,31 +60,18 @@
 
 ## :: 구현 사항 설명
 
-1. 로그인 입력 데이터 유효성 검사 (프론트)
+1. 로그인 입력 데이터 유효성 검사
 
 - 입력창에 변화가 일어날 때 마다 유효성 검사 함수가 실행된다.
 - 유효성 검사 함수의 반환값(boolean)에 따라 버튼의 배경색과 disabled 속성이 변화한다.
 - 테스트 방법 : `/login` 페이지 이동 >>> 로그인 input 데이터 입력
 
-2. 장바구니 구현 (프론트)
+2. 장바구니 구현
 
 - 장바구니 추가 버튼 클릭시 데이터를 백엔드로 전달해서 장바구니로 다시전달 
 
-2. 로그인 데이터 처리 (백엔드)
-
-- 조건문과 정규식을 이용한 email과 password 유효성 검사를 진행
-- 유효섬 검사를 통과하지 못 할 경우 에러 메시지를 반환 예외 처리 구현
-
-3. 제품 페이지 구현 (백엔드)
-- 메인 페이지 단품 및 그룹 상품 동시 출력.
-- 카테고리별 상품 출력 구현.
-- 상품별 상세 페이지 구현.
-
-4. 장바구니 CRUD (백엔드)
-- 장바구니 생성 구현.
-- 장바구니 상품 조회 구현.
-- 장바구니 상품 개별 및 전체 삭제 구현.
-- 장바구니내의 수량 조절 구현.
+3. 메인페이지 상세페이지 
+- 이솝 홈페이지 usefarams, map함수, props를 사용하여 UI구현 
 
 <br />
 
@@ -67,90 +80,18 @@
 - 프론트엔드와 백엔드간의 소통의 중요성.
 - 프론트엔드와 백엔드 각 프로젝트 플로우 인지.
 - 각 분야별 DB처리 방식 및 통신 오류 요소 및 해결.
-- 
+- PM으로써 프런트엔드와 백엔드의 중간에서 조율하고 팀이 좋은 방향으로 나아갈 수 있도록 노력했습니다
+- 첫프로젝트라 팀원들과 어떤점을 소통해야하는지 알게되었습니다
+- 백엔드에 부담을 덜어주기위해 상수데이터로 Nav-bar를 관리했습니다
+- Git,trello,gather,slack을 활용하여 동료와 협업하는 기술을 배웠습니다
+- Git을 통한 협업 과정에서 발생하는 기술적 conflict에 대한 해결능력을 키웠습니다
+
 <br />
 
 
 
-### 우리 서비스의 핵심 강점을 강조하여, 소개 문구를 작성합니다
 
-<aside>
-👉 소비자에게 소비를 유도하는 보기  편안한 직관적이고 깔끔한 UI 구성
 
-</aside>
 
-### 제공하는 메인 서비스를 소개해주세요
 
-<aside>
-소비자 구매 유도를 높일 수 있는 타입별 제품 추천 기능 및 제품 상세 안내
-
-</aside>
-
-# 3. 필수 구현 사항
-
-- 로그인 및 회원가입 구현.
-- 장바구니 CRUD 구현.
-- 제품 메인, 카테고리, 상세 페이지 구현.
-
-### 이번 프로젝트에서 꼭 구현하고 싶은 기능을 정리해주세요
-
-1. 사용자 회원가입 기능 
-2. 사용자 로그인 기능
-3. nav bar (카테고리)
-4. 상품 목록 페이지
-   - 필터링
-   - 정렬
-   - 페이지네이션
-5. 상품 상세 페이지
- - 장바구니에 상품 추가 기능
- - 제품상세 
-6. 장바구니 기능
-  - 장바구니에 상품 추가 기능
-  - 장바구니에 추가된 상품 수정 기능
-  - 장바구니에 추가된 상품 조회 기능
-  - 장바구니에 추가된 상품 삭제 기능
-
-</aside>
-
-# 4. 추가 구현 사항
-
----
-
-### 핵심 기능 외에 추가적으로 구현하고 싶은 기능을 정리해주세요
-
-<aside>
-👉 
-1. 검색 기능 </br>
-2. 사랑받는 제품 조회 </br>
-3. 상품 별점 - 상품 추천 기능 </br>
-4. 상품 리뷰 기능 </br>
-5. 비회원 </br>
-6. 스토어 </br>
-7. 검색
-
-</aside>
-
-<aside>
-🧭 **[Example]** 
-1. 자주 묻는 질문 구현하기 </br>
-2. 실제 결제 구현하기
-
-</aside>
-
-# 5. 개선 사항
-
--메인 페이지 그룹상품 가격을 각 상품들의 가격드를 불러와 합치는 방식으로 개선.
-
-### 현재 서비스에서 개선하고자 하는 점을 작성해주세요
-
-<aside>
-👉 상품 좋아요 기능
-
-</aside>
-
-<aside>
-🧭 **[Example]**
-1. 개별 작품 소개 페이지로 진입할 때, 로딩 이미지가 없어서 지루하다고 생각해서 로딩될 때를 알려주는 아이콘을 넣고 싶다. </br>
-2. 작품 찜하기를 상세 페이지에서만 할 수 있는데, 리스트에서도 할 수 있도록 만들고싶다. </br>
-3. 결제를 구현하기 어려우니, 유저가 가입하면 기본 포인트를 주고, 결제를 하면 포인트가 차감되는 형식으로 기획을 바꾸고 싶다.
 
